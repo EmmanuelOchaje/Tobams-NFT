@@ -1,21 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.hero {
+  /* background: radial-gradient(circle at center, #0d0f2b 20%, #060714 100%); */
+  background: radial-gradient(#0d0f2b 20%, #060714 100%);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.her {
+  background-image: url("/assets/circles-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input {
+  &:focus {
+    outline: 1px solid transparent;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
