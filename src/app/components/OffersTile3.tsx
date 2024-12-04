@@ -21,7 +21,7 @@ const data = [
 
 const OffersTile3 = () => {
   return (
-    <div className="border mx-4 border-[#262840] h-full rounded-lg p-4">
+    <div className="border mx-4 border-[#262840] w-[316px] h-full rounded-lg p-4">
       <h3 className="text-white my-3">Top NFT at a lower price</h3>
 
       <div>
@@ -33,7 +33,7 @@ const OffersTile3 = () => {
               </div>
 
               <div>
-                <p className="w-[150px] text-white text-[11px]">{data.text}</p>
+                <p className="text-white text-[11px]">{data.text}</p>
 
                 {/* time left */}
                 <div className="flex justify-between my-1">

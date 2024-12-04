@@ -4,7 +4,7 @@ import ButtonTansparent from "./ui/ButtonTransparent";
 
 const Overline2 = () => {
   return (
-    <section className="b px-[5rem] py-[5rem] flex flex-row-reverse justify-between">
+    <section className="b px-[5rem] py-[5rem] flex flex-row-reverse justify-center">
       <div>
         <h3 className="text-[#7780A1] py-4">OVERLINE</h3>
         <h1 className="w-[580px] text-5xl text-white">
@@ -39,7 +39,7 @@ const Overline2 = () => {
         </div>
       </div>
 
-      <div className="pl-[8rem]">
+      <div className="px-[8rem] py-[5rem]">
         <Image src="/assets/overline-2.png" alt="" width={400} height={400} />
       </div>
     </section>

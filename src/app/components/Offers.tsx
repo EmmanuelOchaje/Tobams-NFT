@@ -5,7 +5,7 @@ import OffersTile3 from "./OffersTile3";
 
 const Offers = () => {
   return (
-    <section className="b min-h-[100vh]">
+    <section className="my-[2rem] py-[2rem]">
       <div className="flex justify-center relative">
         <OffersTile1 />
         <OffersTile2 />

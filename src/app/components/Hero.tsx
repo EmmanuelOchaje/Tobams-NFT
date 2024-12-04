@@ -97,11 +97,11 @@ export default function Hero() {
         </div>
 
         <div className="flex w-fit mt-32 m-auto">
-          <Image src="/assets/Adidas.png" alt="" width={100} height={10} />
-          <Image src="/assets/New Holland.png" alt="" width={100} height={10} />
+          <Image src="/assets/adidas.png" alt="" width={100} height={10} />
+          <Image src="/assets/new-holland.png" alt="" width={100} height={10} />
           <Image src="/assets/nike.png" alt="" width={100} height={10} />
           <Image
-            src="/assets/Ritter Sport.png"
+            src="/assets/ritter-sport.png"
             alt=""
             width={100}
             height={10}
