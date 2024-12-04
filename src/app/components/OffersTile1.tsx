@@ -29,7 +29,7 @@ const OffersTile1 = () => {
               22.59
             </p>
 
-            <button className="bg-[#514CFF26] h-fit p-1 w-fit text-[#514CFF] p- text-[11px] rounded-lg">
+            <button className="bg-[#060714] h-fit p-1 w-fit text-[#514CFF] p- text-[11px] rounded-lg">
               2.55 ETH
             </button>
           </div>

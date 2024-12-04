@@ -12,20 +12,20 @@ export default function Navbar() {
         <Image src="/assets/logo.png" alt="logo" width={30} height={30} />
       </div>
 
-      <div className="flex w-[500px] py-3 justify-between">
-        <Link className="text-[#7780A1] text-[13px]" href={"/"}>
+      <ul className="flex py-3 w-fit ml-[10rem]">
+        <Link className="text-[#7780A1] mx-4 text-[13px]" href={"/"}>
           Auction
         </Link>
-        <Link className="text-[#7780A1] text-[13px]" href={"/"}>
+        <Link className="text-[#7780A1] mx-4 text-[13px]" href={"/"}>
           RoadMap
         </Link>
-        <Link className="text-[#7780A1] text-[13px]" href={"/"}>
+        <Link className="text-[#7780A1] mx-4 text-[13px]" href={"/"}>
           Discover
         </Link>
-        <Link className="text-[#7780A1] text-[13px]" href={"/"}>
+        <Link className="text-[#7780A1] mx-4 text-[13px]" href={"/"}>
           Community
         </Link>
-      </div>
+      </ul>
 
       <div>
         <ButtonTansparent>Contact</ButtonTansparent>
