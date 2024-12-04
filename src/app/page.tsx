@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main className={sora.className}>
       {/* contains the Navabr and the hero, used in getting the desired background color and image */}
-      <div className="first-screen">
-        <div className="hero">
+      <div className="bg-color">
+        <div className="bg-image">
           <Navbar />
           <Hero />
         </div>

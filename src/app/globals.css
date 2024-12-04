@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.hero {
+
+.bg-color {
   /* background: radial-gradient(circle at center, #0d0f2b 20%, #060714 100%); */
   background: radial-gradient(#0d0f2b 20%, #060714 100%);
 }
-.first-screen {
+.bg-image {
   background-image: url("/assets/circles-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -18,6 +19,6 @@ input {
 }
 /* used to declare global backgoundcolor fro other parts of the site */
 .bg {
-  /* background: radial-gradient(#0d0f2b 20%, #060714 100%); */
-  background-color: #0d0f2b;
+  background: radial-gradient(#0d0f2b 20%, #060714 100%);
+  /* background-color: #0d0f2b; */
 }
