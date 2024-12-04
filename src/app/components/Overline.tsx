@@ -4,7 +4,7 @@ import ButtonTansparent from "./ui/ButtonTransparent";
 
 const Overline = () => {
   return (
-    <section className="bg px-[10rem] py-[5rem] flex justify-between">
+    <section className="b px-[10rem] py-[5rem] flex justify-between">
       <div>
         <h3 className="text-[#7780A1] py-4">OVERLINE</h3>
         <h1 className="w-[580px] text-5xl text-white">

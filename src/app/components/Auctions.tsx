@@ -61,7 +61,7 @@ const data = [
 ];
 export default function Auctions() {
   return (
-    <section className="bg tex-[#7780A1] py-10">
+    <section className="b tex-[#7780A1] py-10">
       <div>
         <h3 className="text-center text-white">Latest Live Auctions</h3>
         <div className="">
