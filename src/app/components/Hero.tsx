@@ -98,7 +98,7 @@ export default function Hero() {
 
         <div className="flex w-fit mt-32 m-auto">
           <div className="relative w-[50px] h-[50px]">
-            <Image src="/assets/adidas.png" alt="" fill />
+            <Image src="/assets/adidass.png" alt="" fill />
           </div>
           <div className="relative w-[80px] h-[80px]">
             <Image
@@ -109,7 +109,7 @@ export default function Hero() {
             />
           </div>
           <div className="relative w-[50px] h-[50px]">
-            <Image src="/assets/nike.png" alt="" fill />
+            <Image src="/assets/nikes.png" alt="" fill />
           </div>
           <div className="relative w-[80px] h-[80px]">
             <Image
