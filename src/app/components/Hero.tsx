@@ -86,26 +86,39 @@ export default function Hero() {
 
           <div className="text-[#7780A1] border-l border-[#7780A1] h-fit w-[150px] my-auto flex justify-between text-[12px] px-4">
             Category
-            <div className="h-fit my-auto">
-              <Image src="/assets/arr-down.png" width={10} height={10} alt="" />
+            <div className="my-auto relative w-[10px] h-[10px]">
+              <Image src="/assets/arr-down.png" fill alt="" />
             </div>
           </div>
 
-          <div className="h-[30px] my-auto mt-3">
-            <Image src="/assets/search.png" alt="" width={20} height={10} />
+          <div className="w-[23px] h-[23px] m-auto my-2 relative">
+            <Image src="/assets/search.png" alt="" fill />
           </div>
         </div>
 
         <div className="flex w-fit mt-32 m-auto">
-          <Image src="/assets/adidas.png" alt="" width={100} height={10} />
-          <Image src="/assets/new-holland.png" alt="" width={100} height={10} />
-          <Image src="/assets/nike.png" alt="" width={100} height={10} />
-          <Image
-            src="/assets/ritter-sport.png"
-            alt=""
-            width={100}
-            height={10}
-          />
+          <div className="relative w-[50px] h-[50px]">
+            <Image src="/assets/adidas.png" alt="" fill />
+          </div>
+          <div className="relative w-[80px] h-[80px]">
+            <Image
+              src="/assets/new-holland.png"
+              alt=""
+              width={100}
+              height={10}
+            />
+          </div>
+          <div className="relative w-[50px] h-[50px]">
+            <Image src="/assets/nike.png" alt="" fill />
+          </div>
+          <div className="relative w-[80px] h-[80px]">
+            <Image
+              src="/assets/ritter-sport.png"
+              alt=""
+              width={100}
+              height={10}
+            />
+          </div>
         </div>
       </div>
     </section>
