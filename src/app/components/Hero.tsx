@@ -3,15 +3,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="min-h-[100vh] pt-20">
-      {/* planet images */}
-      <div className="relative">
-        {/* 
-        
-        
-        
-         */}
-      </div>
-
       <div className="w-full">
         <h3 className="text-center my-4 text-[#7780A1] text-[15px]">
           NON FUNGIBLE TOKENS
@@ -46,7 +37,7 @@ export default function Hero() {
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
-        <div className="absolute top-[70%]">
+        <div className="absolute top-[90%]">
           <div>
             <Image src="/assets/Image (3).png" width={50} height={30} alt="/" />
           </div>
@@ -94,9 +85,21 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="h-[30px] my-auto mt-4">
+          <div className="h-[30px] my-auto mt-3">
             <Image src="/assets/search.png" alt="" width={20} height={10} />
           </div>
+        </div>
+
+        <div className="flex w-fit mt-32 m-auto">
+          <Image src="/assets/Adidas.png" alt="" width={100} height={10} />
+          <Image src="/assets/New Holland.png" alt="" width={100} height={10} />
+          <Image src="/assets/nike.png" alt="" width={100} height={10} />
+          <Image
+            src="/assets/Ritter Sport.png"
+            alt=""
+            width={100}
+            height={10}
+          />
         </div>
       </div>
     </section>
