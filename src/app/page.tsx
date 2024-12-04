@@ -9,6 +9,7 @@ import Overline2 from "./components/Overline2";
 import Overline3 from "./components/Oveline3";
 import Folder from "./components/Folder";
 import Slider from "./components/Slider";
+import Footer from "./components/Footer";
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function Home() {
         <Overline3 />
         <Folder />
         <Slider />
+        <Footer />
       </div>
     </main>
   );

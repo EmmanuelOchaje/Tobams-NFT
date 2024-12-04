@@ -9,6 +9,7 @@ type props = {
 
 const SliderTile = ({ data }: props) => {
   return (
+    //reusable component for each of the images close to the footer
     <div className="mr-4">
       <div className="w-[50px] h-[50px] relative">
         <Image className="rounded-lg" src={data.src} fill alt="/" />

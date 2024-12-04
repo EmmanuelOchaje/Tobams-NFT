@@ -81,9 +81,11 @@ const data = [
     src: "/assets/sld18.png",
   },
 ];
+
 const Slider = () => {
   return (
     <div>
+      {/* slide of all the images close to the footer */}
       <div className="flex overflow-hidden my-6">
         {data.map((data, id) => (
           <SliderTile data={data} key={id} />
