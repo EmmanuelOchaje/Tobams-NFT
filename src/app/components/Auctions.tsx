@@ -64,7 +64,7 @@ export default function Auctions() {
     <section className="b tex-[#7780A1] py-10">
       <div>
         <h3 className="text-center text-white">Latest Live Auctions</h3>
-        <div className="">
+        <div className="flex justify-center">
           <AuctionCard data={data} />
         </div>
       </div>

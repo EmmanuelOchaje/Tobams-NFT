@@ -13,9 +13,12 @@ type props = {
 
 const AuctionCard = ({ data }: props) => {
   return (
-    <div className="flex overflow-hidden pr-[10rem]">
+    <div className="flex justify-center">
       {data.map((data, idx) => (
-        <div className="border rounded-lg p-2 m-2 border-[#262840]" key={idx}>
+        <div
+          className="border rounded-lg w-[250px] p-2 m-2 border-[#262840]"
+          key={idx}
+        >
           <div className="mb-4 w-full h-[300px] relative">
             <Image src={data.src} className="rounded-lg" alt="/" fill />
           </div>
