@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
+import ButtonTansparent from "./ui/ButtonTransparent";
 
 export default function Navbar() {
   return (
@@ -27,9 +28,7 @@ export default function Navbar() {
       </div>
 
       <div>
-        <button className="text-white text-[13px] w-24 p-2 rounded-xl border-[.5px] m-1">
-          Contact
-        </button>
+        <ButtonTansparent>Contact</ButtonTansparent>
         <Button>My Account</Button>
       </div>
     </nav>

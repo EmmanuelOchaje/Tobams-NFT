@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import { Sora } from "next/font/google";
 import Hero from "./components/Hero";
 import Auctions from "./components/Auctions";
+import Overline from "./components/Overline";
+import Offers from "./components/Offers";
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -17,6 +19,8 @@ export default function Home() {
         </div>
       </div>
       <Auctions />
+      <Overline />
+      <Offers />
     </main>
   );
 }

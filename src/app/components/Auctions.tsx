@@ -14,7 +14,7 @@ type props = {
 
 const data = [
   {
-    src: "/assets/Slide-2.png",
+    src: "/assets/Slide-5.png",
     text: "Tristique diam a, enim, eros tellus. Viverra etiam",
     eth: "2.55",
     time: "2:41",
@@ -49,7 +49,7 @@ const data = [
     like: 98,
   },
   {
-    src: "/assets/Slide-4.png",
+    src: "/assets/Slide-1.png",
     text: "Tristique diam a, enim, eros tellus. Viverra etiam",
     eth: "2.55",
     time: "2:41",

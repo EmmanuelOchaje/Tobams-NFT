@@ -16,23 +16,16 @@ const AuctionCard = ({ data }: props) => {
     <div className="flex overflow-hidden pr-[10rem]">
       {data.map((data, idx) => (
         <div className="border rounded-lg p-2 m-2 border-[#262840]" key={idx}>
-          <div className="h-[400px]">
-            <Image
-              src={data.src}
-              className="rounded-lg h-fit"
-              alt="/"
-              width={400}
-              height={200}
-              layout="responsive"
-            />
+          <div className="mb-4 w-full h-[300px] relative">
+            <Image src={data.src} className="rounded-lg" alt="/" fill />
           </div>
-          <div className="flex px-2">
-            <p className="text-white w-[170px] text-[12px]">{data.text}</p>
+          <div className="flex">
+            <p className="text-white w-[170px] mr-4 text-[12px]">{data.text}</p>
             <button className="bg-[#514CFF26] h-8 p-1 w-20 text-[#514CFF] p- text-[13px] rounded-lg">
               {data.eth} ETH
             </button>
           </div>
-          <p className="text-white my-4 px-4 text-[12px] flex">
+          <p className="text-white my-4 text-[12px] flex">
             <span className="mr-1">
               <Image src="/assets/time.png" alt="/" width={15} height={10} />
             </span>
