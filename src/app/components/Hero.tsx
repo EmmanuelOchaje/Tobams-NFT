@@ -20,38 +20,44 @@ export default function Hero() {
 
         {/* images around the orbit */}
         <div className="absolute left-[75%] top-[85%]">
+          {/* frog nft */}
           <div>
-            <Image src="/assets/Image.png" width={70} height={30} alt="/" />
+            <Image src="/assets/nft-1.png" width={70} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
+        {/* tiger */}
         <div className="absolute left-[90%]">
           <div>
-            <Image src="/assets/Image (1).png" width={70} height={30} alt="/" />
+            <Image src="/assets/nft-6.png" width={70} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
         <div className="absolute left-[9%] bottom-[60%]">
+          {/* parrot */}
           <div>
-            <Image src="/assets/Image (2).png" width={70} height={30} alt="/" />
+            <Image src="/assets/nft-4.png" width={70} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
+        {/* left edge, tortle */}
         <div className="absolute top-[90%]">
           <div>
-            <Image src="/assets/Image (3).png" width={50} height={30} alt="/" />
+            <Image src="/assets/nft-2.png" width={50} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
+        {/* elephant */}
         <div className="absolute left-[17.5%] bottom-[15%]">
           <div>
-            <Image src="/assets/Image (4).png" width={70} height={30} alt="/" />
+            <Image src="/assets/nft-5.png" width={70} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>
+        {/* wolf */}
         <div className="absolute left-[75%] bottom-[60%]">
           <div>
-            <Image src="/assets/Image(3).png" width={70} height={30} alt="/" />
+            <Image src="/assets/nft-3.png" width={70} height={30} alt="/" />
           </div>
           <p className="text-[#7780A1] mt-1">2.55 ETH</p>
         </div>

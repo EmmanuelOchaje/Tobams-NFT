@@ -14,7 +14,7 @@ type props = {
 
 const data = [
   {
-    src: "/assets/Slide-5.png",
+    src: "/assets/slide-1.png",
     text: "Tristique diam a, enim, eros tellus. Viverra etiam",
     eth: "2.55",
     time: "2:41",
@@ -23,7 +23,7 @@ const data = [
     height: 200,
   },
   {
-    src: "/assets/Slide-2.png",
+    src: "/assets/slide-2.png",
     text: "Vulputate felis purus viverra morbi facilisi eget",
     eth: "3.19",
     time: "2:41",
@@ -31,7 +31,7 @@ const data = [
     like: 120,
   },
   {
-    src: "/assets/Slide-3.png",
+    src: "/assets/slide-3.png",
     text: "Dui accumsan leo vestibulum ornare eu",
     eth: "1.11",
     time: "22:59",
@@ -40,7 +40,7 @@ const data = [
     like: 570,
   },
   {
-    src: "/assets/Slide-4.png",
+    src: "/assets/slide-4.png",
     text: "Senectus adipiscing nascetur accumsan etiam",
     eth: "1.63",
     time: "37:01",
@@ -49,7 +49,7 @@ const data = [
     like: 98,
   },
   {
-    src: "/assets/Slide-1.png",
+    src: "/assets/slide-5.png",
     text: "Tristique diam a, enim, eros tellus. Viverra etiam",
     eth: "2.55",
     time: "2:41",
