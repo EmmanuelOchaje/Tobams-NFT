@@ -35,7 +35,7 @@ const OffersTile1 = () => {
           </div>
 
           <hr className="border-[#262840] mx-2 my-2" />
-          <p className="flex justify-between text-[10px] text-[#7780A1]">
+          <div className="flex justify-between text-[10px] text-[#7780A1]">
             101 people are bidding{" "}
             <span className="mt-1">
               <div className="h-fit m-auto">
@@ -48,7 +48,7 @@ const OffersTile1 = () => {
                 />
               </div>
             </span>
-          </p>
+          </div>
         </div>
         {/* button overlay */}
         {/* <button className="absolute z-10 flex justify-center bottom-[52%] left-[54%] p-4 rounded-full h-[50px] w-[50px] bg-[#262840CC]">
@@ -88,7 +88,7 @@ const OffersTile1 = () => {
           </div>
 
           <hr className="border-[#262840] mx-2 my-2" />
-          <p className="flex justify-between text-[10px] text-[#7780A1]">
+          <div className="flex justify-between text-[10px] text-[#7780A1]">
             101 people are bidding{" "}
             <span className="mt-1">
               <div className="h-fit m-auto">
@@ -101,7 +101,7 @@ const OffersTile1 = () => {
                 />
               </div>
             </span>
-          </p>
+          </div>
         </div>
       </div>
       <button className="text-[#7780A1] my-4 text-[13px] w-full p-2 rounded-xl border border-[#262840]">

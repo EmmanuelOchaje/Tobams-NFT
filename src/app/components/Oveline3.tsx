@@ -69,7 +69,7 @@ const Overline3 = () => {
       <hr className="border-[#262840] mt-[5rem] mx-20" />
 
       {/* dashboard analysis */}
-      <div className="flex justify-center">
+      <div className="flex justify-center my-[5rem]">
         <div className="m-10">
           <div className="relative m-auto my-2 w-[30px] h-[30px]">
             <Image src="/assets/user.png" fill alt="/" />

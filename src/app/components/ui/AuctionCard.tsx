@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 type props = {
   data: {
@@ -8,10 +10,26 @@ type props = {
     time: string;
     bid: string;
     like: number;
+    id: number;
   }[];
 };
 
 const AuctionCard = ({ data }: props) => {
+  // this state handles the like button for this section
+
+  const [likedItems, setLikedItems] = useState<Set<number>>(new Set());
+
+  function handleLike(id: number): void {
+    setLikedItems((prevLikedItems) => {
+      const newLikedItems = new Set(prevLikedItems);
+      if (newLikedItems.has(id)) {
+        newLikedItems.delete(id);
+      } else {
+        newLikedItems.add(id);
+      }
+      return newLikedItems;
+    });
+  }
   return (
     <div className="flex justify-center">
       {data.map((data, idx) => (
@@ -70,13 +88,18 @@ const AuctionCard = ({ data }: props) => {
                 width={30}
                 height={300}
               />
-              <span className="text-[#7780A1] text-[10px] absolute left-[37%] my-2">
+              <span className="text-[#7780A1] text-[9px] absolute left-[37%] my-2">
                 {data.bid}
               </span>
               <span className="text-[#7780A1] flex text-[10px] absolute h-fit left-[85%] my-2">
                 <div className="h-fit m-auto">
                   <Image
-                    src="/assets/like.png"
+                    onClick={() => handleLike(data.id)} // Use item.id to set the like
+                    src={
+                      likedItems.has(data.id)
+                        ? "/assets/like.png"
+                        : "/assets/like-trans.png"
+                    }
                     className=" mr-1"
                     alt=""
                     width={12}

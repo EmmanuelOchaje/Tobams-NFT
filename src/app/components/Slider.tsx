@@ -86,7 +86,7 @@ const Slider = () => {
   return (
     <div>
       {/* slide of all the images close to the footer */}
-      <div className="flex overflow-hidden my-6">
+      <div className="flex justify-center my-6">
         {data.map((data, id) => (
           <SliderTile data={data} key={id} />
         ))}

@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+
 import Navbar from "./components/Navbar";
 import { Over_the_Rainbow, Sora } from "next/font/google";
 import Hero from "./components/Hero";

@@ -3,6 +3,7 @@ import Button from "./ui/Button";
 import ButtonTansparent from "./ui/ButtonTransparent";
 
 const Overline2 = () => {
+  // Section that contains the emoji and the cloud
   return (
     <section className="b px-[5rem] py-[5rem] flex flex-row-reverse justify-center">
       <div>

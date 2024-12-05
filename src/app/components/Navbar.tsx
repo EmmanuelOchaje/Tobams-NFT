@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
 import ButtonTansparent from "./ui/ButtonTransparent";
+// import logo from "/public";
 
 export default function Navbar() {
   return (

@@ -9,6 +9,7 @@ type props = {
     time: string;
     bid: string;
     like: number;
+    id: number;
   }[];
 };
 
@@ -21,6 +22,7 @@ const data = [
     bid: "14 people are bidding",
     like: 54,
     height: 200,
+    id: 1,
   },
   {
     src: "/assets/slide-2.png",
@@ -29,12 +31,14 @@ const data = [
     time: "2:41",
     bid: "35 people are bidding",
     like: 120,
+    id: 2,
   },
   {
     src: "/assets/slide-3.png",
     text: "Dui accumsan leo vestibulum ornare eu",
     eth: "1.11",
     time: "22:59",
+    id: 3,
 
     bid: "101 people are bidding",
     like: 570,
@@ -44,6 +48,7 @@ const data = [
     text: "Senectus adipiscing nascetur accumsan etiam",
     eth: "1.63",
     time: "37:01",
+    id: 4,
 
     bid: "12 people are bidding",
     like: 98,
@@ -53,7 +58,7 @@ const data = [
     text: "Tristique diam a, enim, eros tellus. Viverra etiam",
     eth: "2.55",
     time: "2:41",
-
+    id: 5,
     bid: "14 people are bidding",
     like: 54,
     height: 200,

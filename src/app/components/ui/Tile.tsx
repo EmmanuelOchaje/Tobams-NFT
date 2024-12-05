@@ -1,5 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 type Props = {
   data: {
@@ -9,6 +11,17 @@ type Props = {
 };
 
 const Tile = ({ data }: Props) => {
+  // this state handles the like button for this section
+
+  const [like, setLike] = useState(false);
+
+  function handleLike() {
+    setLike(!like);
+  }
+  useEffect(() => {
+    handleLike;
+  }, []);
+
   return (
     <div className="m-1 rounded-lg">
       <div className="relative w-[165px] h-[200px]">
@@ -30,20 +43,21 @@ const Tile = ({ data }: Props) => {
       </div>
 
       <hr className="border-[#262840] mx-2 my-2" />
-      <p className="flex justify-between text-[10px] text-[#7780A1]">
+      <div className="flex justify-between text-[10px] text-[#7780A1]">
         101 people are bidding{" "}
         <span className="mt-1">
           <div className="h-fit m-auto">
             <Image
-              src="/assets/like-trans.png"
+              src={like ? "/assets/like.png" : "/assets/like-trans.png"}
               className=" mr-1"
               alt=""
+              onClick={handleLike}
               width={12}
               height={12}
             />
           </div>
         </span>
-      </p>
+      </div>
     </div>
   );
 };
